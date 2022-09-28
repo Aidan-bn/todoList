@@ -4,7 +4,7 @@
 
 ## Built With
 
-- Used languages: HTML, CSS and JavaScript
+- Used languages: HTML, CSS and JavaScript with webpack
 
 ## Live Demo (if available)
 
@@ -16,9 +16,9 @@ https://github.com/Aidan-bn/todoList
 
  ### Run the following commands to execute and modify the project
  - npm start (start a server)
- - npm run build Update dist folder
- - npm i install all dependencies in package.json
- - npm init -y install package.json (package for configuration)
+ - npm run build (Update dist folder)
+ - npm i (install all dependencies in package.json)
+ - npm init -y (install package.json (package for configuration)
 
 👤 **Author1**
 
