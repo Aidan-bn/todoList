@@ -15,11 +15,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border: 2px solid;
 }
 
 form {
   border: 2px solid gainsboro;
-  width: 70%;
+  width: 100%;
   margin: auto;
   padding: 8px;
   display: flex;
@@ -29,40 +30,52 @@ form {
 }
 
 input {
-  width: 80%;
+  /* width: 100%; */
+  background-color: inherit;
   height: 30px;
   font-size: 17px;
   font-style: italic;
 }
 
+.todo-vakue {
+    width: 100%;
+}
 ul {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .bottom {
   padding: 5px 30px;
-  width: 100%;
+  /* width: 100%; */
   font-size: 17px;
   font-weight: 600;
 }
 
 .toDoDivision {
-  /* border: 2px solid yellow; */
   display: flex;
   align-items: center;
   justify-content: space-around;
-  min-width: 550px;
+  width: 100%;
 }
 
 .checkbox {
-  border: 2px solid red;
-  width: 5px;
-  margin-left: 1px;
-  padding-left: 0%;
 }
 
 h1 {
   color: aliceblue;
+}
+
+/* New */
+
+.ul-todo {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 8px;
+  margin: 2px;
+}
+
+.li-list {
 }
