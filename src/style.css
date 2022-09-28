@@ -38,8 +38,9 @@ input {
 }
 
 .todo-vakue {
-    width: 100%;
+  width: 100%;
 }
+
 ul {
   display: flex;
   justify-content: center;
@@ -47,6 +48,7 @@ ul {
 
 .bottom {
   padding: 5px 30px;
+
   /* width: 100%; */
   font-size: 17px;
   font-weight: 600;
@@ -59,14 +61,9 @@ ul {
   width: 100%;
 }
 
-.checkbox {
-}
-
 h1 {
   color: aliceblue;
 }
-
-/* New */
 
 .ul-todo {
   list-style: none;
@@ -75,7 +72,4 @@ h1 {
   background-color: white;
   padding: 8px;
   margin: 2px;
-}
-
-.li-list {
 }
