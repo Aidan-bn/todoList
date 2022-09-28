@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(234, 230, 230);
+}
+
+.content {
+  border: 2px solid rgb(184, 220, 280);
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid;
+}
+
+form {
+  border: 2px solid gainsboro;
+  width: 100%;
+  margin: auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+input {
+  /* width: 100%; */
+  background-color: inherit;
+  height: 30px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.todo-vakue {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  padding: 5px 30px;
+
+  /* width: 100%; */
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.toDoDivision {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.ul-todo {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 8px;
+  margin: 2px;
+}
