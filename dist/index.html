@@ -1,24 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/95c0469538.js" crossorigin="anonymous"></script>
     <title>To Do List</title>
 <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
 <body>
     <div class="content">
-        <!-- <div class="header">
-            <h4>Today's To Do</h4>
-            <span class="material-symbols-outlined">refresh</span>
-        </div> -->
-        <!-- <form> -->
-            <!-- <input type="text" placeholder="Add activity" class="activity"> -->
-            <div class="todos-container">
-                <!-- Dynamically inserted -->
+        <div class="listsection">
+            <div class="header">
+                <h1>Todo List</h1>
+                <span class="material-symbols-outlined">refresh</span>
             </div>
-            <!-- <button type="button" class="bottom">Reset All</button> -->
-        <!-- </form> -->
+            <form>
+                <input type="text" class="todo-input" id="todo-input" placeholder="Add todo list ...">
+            </form>
+            <div class="todos-container" id="todos-container">
+                <!-- Dynamically -->
+            </div>
+            <button type="submit" class="clear" >Clear All Completed</button>
+        </div>
     </div>
+    <script type="modules" src="./index.js"></script>
 </body>
 </html>

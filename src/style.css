@@ -14,8 +14,9 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 2px solid;
+  padding: 2px 20px;
 }
 
 form {
@@ -34,16 +35,20 @@ input {
   background-color: inherit;
   height: 30px;
   font-size: 17px;
-  font-style: italic;
+  width: 100%;
+  border: 1px hidden;
 }
 
 .todo-vakue {
   width: 100%;
 }
 
-ul {
+.todoActivity {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background: whitesmoke;
+  margin: 1px;
 }
 
 .bottom {
@@ -59,10 +64,6 @@ ul {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-}
-
-h1 {
-  color: aliceblue;
 }
 
 .ul-todo {

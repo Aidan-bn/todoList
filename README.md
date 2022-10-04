@@ -1,10 +1,11 @@
 # Todolist project with Webpack
 
-> This simple web page created using webpack and served by a webpack dev server.
+> This simple To do list web page created using modules and webpack and served by a webpack dev server. 
+> With this branch, Add, Edit and Remove functionality were aded to increase application interactivity.The added and updated tasks list will be stored in local storage.
 
 ## Built With
 
-- Used languages: HTML, CSS and JavaScript with webpack
+- Used languages: HTML, CSS and JavaScript with webpack and modules
 
 ## Live Demo (if available)
 
