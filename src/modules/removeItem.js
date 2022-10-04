@@ -1,16 +1,11 @@
-import { oneItem } from './declaration';
-import preview from './preview.js';
+let todos = JSON.parse(localStorage.getItem('todos')) || [];
 
-const remove = (id) => {
-  //const containerDiv = document.getElementById('todoSection');
-  let lists = [];
-  let contentDiv = '';
-  lists = JSON.parse(localStorage.getItem('ListItems'));
-  lists.splice(id, 1);
+const removeTask = (id) => {
+  todos = todos.filter((tasks) => tasks.id !== id);
+  todos.forEach((todo, id) => {
+    todo.id = id + 1;
+  });
+  localStorage.setItem('todos', JSON.stringify(todos));
+};
 
-  const updateIndex = lists.filter((oneItem, index) => {
-    if(oneItem.index !== index){
-      oneItem.index = index;
-    }
-  })
-}
+export default removeTask;

@@ -1,4 +1,3 @@
-export const todoTask = document.querySelector('.todo-input');
-export const buttonClear = document.querySelector('.clear');
-export const listSection = document.querySelector('.todos-container');
-export const oneItem = {index, description};
+export const todoInput = document.getElementById('todo-input');
+export const form = document.getElementById('todo-input');
+export const todos = JSON.parse(localStorage.getItem('todos')) || [];

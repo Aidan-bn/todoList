@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/95c0469538.js" crossorigin="anonymous"></script>
     <title>To Do List</title>
 </head>
 <body>
@@ -12,15 +13,18 @@
         <div class="listsection">
             <div class="header">
                 <h1>Todo List</h1>
-                <span>Refresh</span>
+                <span class="material-symbols-outlined">refresh</span>
             </div>
-            <input type="text" class="todo-input" placeholder="Add todo list ...">
-            <div class="todos-container">
-                <!-- Dynamically inserted -->
+            <form>
+                <input type="text" class="todo-input" id="todo-input" placeholder="Add todo list ...">
+                <!-- <input type="submit" value="Submit"> -->
+            </form>
+            <div class="todos-container" id="todos-container">
+                <!-- Dynamically -->
             </div>
-            <button type="submit" class="clear">Clear All Completed</button>
+            <button type="submit" class="clear" >Clear All Completed</button>
         </div>
     </div>
-    <script type="module" source="./index.js"></script>
+    <script type="modules" src="./index.js"></script>
 </body>
 </html>
