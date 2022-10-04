@@ -1,7 +1,7 @@
 # Todolist project with Webpack
 
 > This simple To do list web page created using modules and webpack and served by a webpack dev server. 
-> In this branch some functionality were aded to make an application interactive. The user will be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage.
+> With this branch, Add, Edit and Remove functionality were aded to increase application interactivity.The added and updated tasks list will be stored in local storage.
 
 ## Built With
 
