@@ -1,7 +1,7 @@
 # Todolist project with Webpack
 
 > This simple To do list web page created using modules and webpack and served by a webpack dev server. 
-> With this branch, Add, Edit and Remove functionality were aded to increase application interactivity.The added and updated tasks list will be stored in local storage.
+> With this branch, deployment of the project has done.
 
 ## Built With
 
