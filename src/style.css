@@ -35,7 +35,7 @@ input {
   background-color: inherit;
   height: 30px;
   font-size: 17px;
-  width: 100%;
+  width: 99%;
   border: 1px hidden;
 }
 
@@ -73,4 +73,9 @@ input {
   background-color: white;
   padding: 8px;
   margin: 2px;
+}
+
+.completed {
+  text-decoration: line-through;
+  font-style: italic;
 }
